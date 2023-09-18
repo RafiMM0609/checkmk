@@ -18,6 +18,7 @@ In this article I use the raw edition, it's free and open source</p>
 
 1. see all mkp commmand <pre> mkp --help </pre>
 2. see all plugin that have been added <pre> mkp list </pre>
+3. we can add plugin using files we have downloaded <pre> mkp add "you_mkp_file_pwd" </pre>
 3. we can see status of our plugin
 4. if status is disable, we can enable it using this command <pre> mkp enable "plugin_name" "plugin_version" </pre>
 5. we can look at status to check if it's have enable or not <pre> mkp list </pre>
