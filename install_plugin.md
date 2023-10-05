@@ -23,3 +23,8 @@ In this article I use the raw edition, it's free and open source</p>
 4. if status is disable, we can enable it using this command <pre> mkp enable "plugin_name" "plugin_version" </pre>
 5. we can look at status to check if it's have enable or not <pre> mkp list </pre>
 6. we can see detail of package (plugin) using <pre> mkp show "plugin_name" "plugin_version" </pre>
+
+## UnInstall plugin
+
+1. disable <pre> ckmk disable "name" "version" </pre>
+2. remove <pre> ckmk remove "name" "version" </pre>
